@@ -26,13 +26,36 @@
 
         display: grid;
         }
-    .wrapping-image {
+    
+        .wrapping-image {
   position: absolute;
   top: 3%;
   transform: translateY(-50%); 
   width: 40px;             
   height: auto;
   animation: wrapAround 10s linear infinite;
+  overflow: hidden;
+  overflow-x: hidden;
+    }
+     .wrapping-image2 {
+  position: absolute;
+  top: 3%;
+  transform: translateY(-50%); 
+  width: 40px;             
+  height: 39px;
+  animation: wrapAround 10s linear infinite;
+  animation-delay: -9.6s;
+  overflow: hidden;
+  overflow-x: hidden;
+    }
+    .wrapping-image3 {
+  position: absolute;
+  top: 3%;
+  transform: translateY(-50%); 
+  width: 40px;             
+  height: 39px;
+  animation: wrapAround 10s linear infinite;
+  animation-delay: -9.2s;
   overflow: hidden;
   overflow-x: hidden;
     }
@@ -45,14 +68,14 @@
       }
     }
 
-@keyframes floatAnimation {
-  0% {
-    transform: translateY(0px); 
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
+    @keyframes floatAnimation {
+      0% {
+        transform: translateY(0px); 
+      }
+      100% {
+        transform: translateY(-20px);
+        }
+    }
     </style>
 </head>
 
@@ -65,7 +88,17 @@
     </div>
     <div class="black-bar2">
         <header class="black-bar2">
-            <a href=""
+            <a href="https://youtu.be/Q_saM7I20pY?si=6m47Xxx3WN2I5J-r">
+                <img src="https://htmlhoster.com/p/REP28B30/mariobros3-walk.gif" alt="sm3 mario walk" width="40" height="20" class="wrapping-image2">
+            </a>
         </header>
+    <div class="black-bar3">
+        <header class="black-bar2">
+            <a href="https://youtu.be/8w4nvCAx45s?si=BQHeQlqDT8bUWgq9">
+                <img src="https://htmlhoster.com/p/9YJEWYKK/mario.gif" alt="smw walk" width="40" height="20" class="wrapping-image3">
+            </a>
+        </header>    
+    </div>
+    </header>
     </div>
     </header>
